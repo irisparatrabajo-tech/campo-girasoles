@@ -441,13 +441,17 @@
             csrfInput.value = data.token || '';
             if (!csrfInput.value) throw new Error('no-token');
             if (btn) btn.removeAttribute('aria-busy');
-            form.requestSubmit ? form.requestSubmit() : form.submit();
+            /* form.submit() y no requestSubmit(): requestSubmit vuelve a
+               disparar este mismo listener y entra en bucle infinito. */
+            form.submit();
           })
           .catch(function () {
             /* Sin PHP (Netlify): enviar el form tal cual.
                Netlify Forms intercepta el POST por el atributo data-netlify. */
             if (btn) btn.removeAttribute('aria-busy');
-            form.requestSubmit ? form.requestSubmit() : form.submit();
+            /* form.submit() y no requestSubmit(): requestSubmit vuelve a
+               disparar este mismo listener y entra en bucle infinito. */
+            form.submit();
           });
         return;
       }
