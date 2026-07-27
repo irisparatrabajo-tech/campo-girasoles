@@ -85,9 +85,10 @@
       </div>
     </div>
 
-    <!-- FORMULARIO — validación accesible vía JS, envío a enviar.php (Hostinger PHP) -->
-    <form class="form-contacto reveal" data-reveal-delay="200" name="contacto" method="POST" action="/enviar.php" novalidate aria-label="Formulario de contacto">
+    <!-- FORMULARIO — validación accesible vía JS, envío vía Netlify Forms -->
+    <form class="form-contacto reveal" data-reveal-delay="200" name="contacto" method="POST" action="/gracias.html" data-netlify="true" netlify-honeypot="bot-field" novalidate aria-label="Formulario de contacto">
       <p hidden><label>No llenar: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <input type="hidden" name="form-name" value="contacto">
       <input type="hidden" name="csrf_token" id="csrf_token" value="">
       <h3>Jugar es crecer. Crear es florecer.<small>Cuéntanos cómo quieres acompañar el campo. Te respondemos en 48 horas.</small></h3>
       <div class="form-grid">
