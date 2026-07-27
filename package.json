@@ -1,0 +1,1 @@
+{"name":"campo-de-girasoles","version":"1.0.0","description":"Sitio web del proyecto Campo de Girasoles","private":true,"type":"module","scripts":{"build":"node build.mjs","dev":"node build.mjs --watch"},"engines":{"node":">=18"},"devDependencies":{"csso":"^5.0.5","html-minifier-terser":"^7.2.0"}}

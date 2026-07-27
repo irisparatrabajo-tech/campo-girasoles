@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Campo de Girasoles</title>
+<meta name="description" content="Historias, informes y novedades del proyecto Campo de Girasoles. Desarrollo infantil comunitario en Cuba.">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="me" href="mailto:campodegirasoles70@gmail.com">
+<link rel="canonical" href="https://campogirasoles.org/blog/">
+<link rel="icon" type="image/svg+xml" href="/assets/logo.svg"><link rel="icon" type="image/png" href="/assets/logo.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Campo de Girasoles">
+<meta property="og:title" content="Blog — Voces del campo">
+<meta property="og:description" content="Investigaciones, informes comunitarios y novedades del proyecto Campo de Girasoles.">
+<meta property="og:url" content="https://campogirasoles.org/blog/">
+<meta property="og:image" content="https://campogirasoles.org/assets/og-promo.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Blog — Campo de Girasoles">
+<meta name="twitter:description" content="Voces del campo: historias e informes del proyecto.">
+<meta name="twitter:image" content="https://campogirasoles.org/assets/og-promo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" href="/css/estilos.css" as="style">
+<link rel="stylesheet" href="/css/estilos.css"><link rel="manifest" href="/manifest.webmanifest">
+</head>
+<body>
+
+<!-- include:header -->
+
+<main id="main" aria-label="Blog — voces del campo">
+
+<!-- BREADCRUMB -->
+<div class="wrap"><div class="breadcrumb"><a href="/index.html">Inicio</a> / <span>Blog</span></div></div>
+
+<!-- HERO INTERNO -->
+<section class="hero-interno" style="background:var(--crema);border-bottom:1px solid var(--linea);">
+  <div class="wrap contenido" style="max-width:700px;">
+    <span class="chip">Blog</span>
+    <h1>Voces del campo</h1>
+    <p>Investigaciones, informes comunitarios y novedades del proyecto.</p>
+  </div>
+  <div class="blog-hero-foto">
+    <picture>
+      <source type="image/webp" srcset="/assets/photos/salon-4.webp">
+      <img src="/assets/photos/salon-4.jpg" alt="Taller comunitario de Campo de Girasoles" loading="lazy" width="1100" height="275">
+    </picture>
+  </div>
+</section>
+
+<!-- LISTADO DE ARTÍCULOS -->
+<section class="seccion">
+  <div class="wrap">
+    <div class="blog-grid">
+      <article class="blog-card reveal">
+        <span class="fecha">Julio 2026</span>
+        <h3><a href="articulo-ejemplo.html">Infancias sin fin: la lección de los salones ludo-creativos</a></h3>
+        <p>¿Por qué el juego es una herramienta de defensa de la niñez? Cómo el modelo pedagógico del proyecto transforma comunidades enteras desde la curiosidad y la expresión.</p>
+        <a href="articulo-ejemplo.html" class="leer-mas">Leer más ?</a>
+      </article>
+
+      <article class="blog-card reveal" data-reveal-delay="100">
+        <span class="fecha">Junio 2026</span>
+        <h3><a href="articulo-gestores.html">Gestores comunitarios: la red que sostiene los salones</a></h3>
+        <p>Entrevista a coordinadores locales sobre la formación, los desafíos diarios y la autonomía que construyen salón tras salón en cinco provincias de Cuba.</p>
+        <a href="articulo-gestores.html" class="leer-mas">Leer más ?</a>
+      </article>
+
+      <article class="blog-card reveal" data-reveal-delay="200">
+        <span class="fecha">Mayo 2026</span>
+        <h3><a href="articulo-infancia-sin-rejas.html">Infancia Sin Rejas: un año de monitoreo</a></h3>
+        <p>Balance de la campaña de documentación de persecución a menores en Cuba. Casos anonimizados, lecciones y próximos pasos.</p>
+        <a href="articulo-infancia-sin-rejas.html" class="leer-mas">Leer más ?</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- include:footer -->
+
+<!-- include:cierre -->
+
+<script src="/js/navegacion.js"></script>
+</body>
+</html>

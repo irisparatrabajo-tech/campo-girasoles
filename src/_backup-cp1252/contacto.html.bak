@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto — Campo de Girasoles</title>
+<meta name="description" content="Organizaciones, donaciones y participación: ayúdanos a proteger a la infancia cubana. Escríbenos a campodegirasoles70@gmail.com.">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="me" href="mailto:campodegirasoles70@gmail.com">
+<link rel="canonical" href="https://campogirasoles.org/contacto.html">
+<link rel="icon" type="image/svg+xml" href="/assets/logo.svg"><link rel="icon" type="image/png" href="/assets/logo.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180.png">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Campo de Girasoles">
+<meta property="og:title" content="Contacto — Súmate al campo">
+<meta property="og:description" content="Alianzas, donaciones y participación para proteger a la infancia cubana.">
+<meta property="og:url" content="https://campogirasoles.org/contacto.html">
+<meta property="og:image" content="https://campogirasoles.org/assets/og-promo.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Contacto — Campo de Girasoles">
+<meta name="twitter:description" content="Súmate al campo: alianzas, donaciones y participación.">
+<meta name="twitter:image" content="https://campogirasoles.org/assets/og-promo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" href="/css/estilos.css" as="style">
+<link rel="stylesheet" href="/css/estilos.css"><link rel="manifest" href="/manifest.webmanifest">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://campogirasoles.org/" },
+    { "@type": "ListItem", "position": 2, "name": "Contacto", "item": "https://campogirasoles.org/contacto.html" }
+  ]
+}
+</script></head>
+<body>
+
+<!-- include:header -->
+
+<main id="main" aria-label="Contacto — súmate al campo">
+
+<!-- BREADCRUMB -->
+<div class="wrap"><div class="breadcrumb"><a href="/index.html">Inicio</a> / <span>Contacto</span></div></div>
+
+<!-- HERO -->
+<section class="seccion-cta contacto-super">
+  <div class="wrap">
+    <span class="label-edit label-blanco">Cómo ayudar</span>
+    <h1 class="contacto-h1">Cada participante empieza con una decisión</h1>
+    <p class="contacto-lead">Alíate como organización, dona materiales o fondos, o participa con tu tiempo profesional. El cambio real comienza en comunidad. Todas las manos cuentan.</p>
+
+    <div class="vias-grid reveal">
+      <div class="via reveal">
+        <div class="forma" aria-hidden="true"></div>
+        <h3>Alíate</h3>
+        <p>Organizaciones, fundaciones y agencias de cooperación: construyamos juntos espacios protectores.</p>
+      </div>
+      <div class="via reveal" data-reveal-delay="80">
+        <div class="forma" aria-hidden="true"></div>
+        <h3>Dona</h3>
+        <p>Materiales, libros, juegos o fondos para la formación de gestores comunitarios.</p>
+        <!--
+          ============================================================
+          BOTÓN DE DONACIÓN PAYPAL
+          Cuando tengas la cuenta lista (ver README-DEPLOY.md §3):
+          1. Crea el botón en https://www.paypal.com/donate/buttons/
+          2. Pega aquí el HTML que PayPal te devuelva, sustituyendo
+             todo el contenido del div.paypal-placeholder
+          ============================================================
+        -->
+        <div class="paypal-placeholder">
+          <a class="btn btn-oscuro btn-dona" href="mailto:campodegirasoles70@gmail.com?subject=Quiero%20donar%20al%20Campo">Quiero donar</a>
+          <small class="dona-pending">Próximamente donación online vía PayPal · mientras tanto escríbenos</small>
+        </div>
+      </div>
+      <div class="via reveal" data-reveal-delay="160">
+        <div class="forma" aria-hidden="true"></div>
+        <h3>Participa</h3>
+        <p>Profesionales de la educación, el arte y la psicología infantil: tu tiempo transforma vidas.</p>
+      </div>
+    </div>
+
+    <!-- FORMULARIO — validación accesible vía JS, envío a enviar.php -->
+    <form class="form-contacto reveal" data-reveal-delay="200" name="contacto" method="POST" action="/gracias.html" data-netlify="true" netlify-honeypot="bot-field" novalidate aria-label="Formulario de contacto">
+      <p hidden><label>No llenar: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+      <input type="hidden" name="form-name" value="contacto">
+      <input type="hidden" name="csrf_token" id="csrf_token" value="">
+      <h3>Jugar es crecer. Crear es florecer.<small>Cuéntanos cómo quieres acompañar el campo. Te respondemos en 48 horas.</small></h3>
+      <div class="form-grid">
+        <div class="form-field">
+          <label for="nombre">Nombre <span aria-hidden="true">*</span></label>
+          <input type="text" id="nombre" name="nombre" required aria-required="true" aria-describedby="error-nombre" autocomplete="name">
+          <p class="form-error" id="error-nombre" role="alert" hidden>Cuéntanos tu nombre.</p>
+        </div>
+        <div class="form-field">
+          <label for="email">Email <span aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" required aria-required="true" aria-describedby="error-email" autocomplete="email">
+          <p class="form-error" id="error-email" role="alert" hidden>Escribe un email válido.</p>
+        </div>
+        <div class="form-field">
+          <label for="organizacion">Organización (opcional)</label>
+          <input type="text" id="organizacion" name="organizacion" autocomplete="organization">
+        </div>
+        <div class="form-field">
+          <fieldset class="form-radios-field">
+            <legend>Tipo de apoyo <span aria-hidden="true">*</span></legend>
+            <div class="form-radios">
+              <label><input type="radio" name="tipo-apoyo" value="Alíate" required aria-required="true"> Alíate</label>
+              <label><input type="radio" name="tipo-apoyo" value="Dona"> Dona</label>
+              <label><input type="radio" name="tipo-apoyo" value="Participa"> Participa</label>
+            </div>
+          </fieldset>
+          <p class="form-error" id="error-tipo" role="alert" hidden>Elige un tipo de apoyo.</p>
+        </div>
+        <div class="form-field form-field--full">
+          <label for="mensaje">Mensaje <span aria-hidden="true">*</span></label>
+          <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos tu idea, propuesta o duda…" required aria-required="true" aria-describedby="error-mensaje"></textarea>
+          <p class="form-error" id="error-mensaje" role="alert" hidden>Cuéntanos en qué quieres ayudarnos.</p>
+        </div>
+      </div>
+      <div class="form-submit">
+        <button type="submit" class="btn btn-oscuro" id="btn-enviar">Enviar mensaje</button>
+        <small>o escríbenos directo a <a href="mailto:campodegirasoles70@gmail.com" style="color:var(--marron);font-weight:700;text-decoration:underline;">campodegirasoles70@gmail.com</a></small>
+      </div>
+      <p class="form-error form-error-general" id="error-general" role="alert" hidden></p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<!-- include:footer -->
+
+<!-- include:cierre -->
+
+<script src="/js/navegacion.js"></script>
+</body>
+</html>

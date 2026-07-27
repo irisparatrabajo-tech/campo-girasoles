@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>El Problema — Campo de Girasoles</title>
+<meta name="description" content="La niñez cubana enfrenta un colapso sistémico. Datos de UNICEF: 9% pobreza alimentaria grave, 33% moderada. Criminalización y militarización de menores.">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
+<link rel="me" href="mailto:campodegirasoles70@gmail.com">
+<link rel="canonical" href="https://campogirasoles.org/problema.html">
+<link rel="icon" type="image/svg+xml" href="/assets/logo.svg"><link rel="icon" type="image/png" href="/assets/logo.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon-180.png">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="Campo de Girasoles">
+<meta property="og:title" content="El Problema — La niñez cubana enfrenta un colapso sistémico">
+<meta property="og:description" content="Datos de UNICEF: 9% pobreza alimentaria grave, 33% moderada. Criminalización y militarización de menores en Cuba.">
+<meta property="og:url" content="https://campogirasoles.org/problema.html">
+<meta property="og:image" content="https://campogirasoles.org/assets/og-promo.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="El Problema — Campo de Girasoles">
+<meta name="twitter:description" content="La niñez cubana enfrenta un colapso sistémico. Datos UNICEF 2024.">
+<meta name="twitter:image" content="https://campogirasoles.org/assets/og-promo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,600;1,400&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="preload" href="/css/estilos.css" as="style">
+<link rel="stylesheet" href="/css/estilos.css"><link rel="manifest" href="/manifest.webmanifest">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Inicio", "item": "https://campogirasoles.org/" },
+    { "@type": "ListItem", "position": 2, "name": "El problema", "item": "https://campogirasoles.org/problema.html" }
+  ]
+}
+</script></head>
+<body>
+
+<!-- include:header -->
+
+<main id="main" aria-label="El problema — infancia cubana">
+
+<!-- BREADCRUMB -->
+<div class="wrap"><div class="breadcrumb"><a href="/index.html">Inicio</a> / <span>El problema</span></div></div>
+
+<!-- HERO INTERNO -->
+<section class="hero-interno hero-problema">
+  <div class="sol-corner" aria-hidden="true"></div>
+  <div class="petalo-corner" aria-hidden="true"></div>
+  <div class="wrap contenido">
+    <span class="chip">Desarrollo infantil · Cuba</span>
+    <h1>La niñez cubana enfrenta un colapso sistémico</h1>
+    <p>Urge respuesta inmediata. Pobreza alimentaria, desprotección familiar, criminalización de la protesta y militarización forzada comprometen una generación entera.</p>
+  </div>
+</section>
+
+<!-- CIFRAS -->
+<section class="seccion">
+  <div class="wrap">
+    <span class="label-edit" style="display:block;margin-bottom:22px;">Datos UNICEF · junio 2024</span>
+    <div class="data-heat reveal">
+      <div class="cifra-card naranja">
+        <div class="numero"><span class="counter-animate" data-target="9" data-suffix="%">9%</span></div>
+        <p>de los niños y niñas menores de 5 años sufre pobreza alimentaria <strong>grave</strong>.</p>
+        <span class="fuente">UNICEF · Pobreza alimentaria infantil, 2024</span>
+      </div>
+      <div class="cifra-card azul">
+        <div class="numero"><span class="counter-animate" data-target="33" data-suffix="%">33%</span></div>
+        <p>vive en pobreza alimentaria <strong>moderada</strong>. Primera vez que Cuba aparece en este informe global.</p>
+        <span class="fuente">UNICEF · Pobreza Infantil, 2024</span>
+      </div>
+    </div>
+
+    <p class="texto-1" style="max-width:720px;margin-bottom:20px;">Según UNICEF, el 88% de la población cubana malvive en pobreza extrema. El impacto del colapso económico y el éxodo migratorio masivo ha derivado en un aumento exponencial de menores en situación de desamparo, abandono o falta de cuidados parentales adecuados.</p>
+
+    <div class="data-items reveal" data-reveal-delay="150">
+      <div class="data-item">
+        <h3>Desprotección</h3>
+        <p>Colapso económico y éxodo migratorio masivo: aumenta exponencialmente el desamparo y abandono filial.</p>
+      </div>
+      <div class="data-item">
+        <h3>Criminalización</h3>
+        <p>Menores privados de libertad por protesta social: denuncias a Prisoners Defenders y Justicia 11J registran sentencias de hasta 16 años.</p>
+      </div>
+      <div class="data-item">
+        <h3>Militarización</h3>
+        <p>+67 jóvenes fallecidos cumpliendo el Servicio Militar Obligatorio. La mayoría por suicidios o negligencias en unidades.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTEXTO -->
+<section class="seccion-alt seccion-alt-crema">
+  <div class="wrap" style="max-width:760px;">
+    <h2 class="t-serif-italic" style="font-size:clamp(26px,3vw,36px);line-height:1.3;margin-bottom:24px;">Frente a un escenario de colapso y vulneración de derechos, exigimos una respuesta comunitaria e internacional inmediata</h2>
+    <div class="texto-1-lg">
+      <p>Las infancias y adolescencias en Cuba enfrentan una tormenta perfecta: inseguridad alimentaria severa, ruptura de núcleos familiares por la migración, encarcelamiento por ejercer derechos civiles y riesgo vital durante el servicio militar.</p>
+      <p>Organizaciones como <strong>Prisoners Defenders</strong> y <strong>Justicia 11J</strong> registran decenas de menores privados de libertad o sancionados penalmente por ejercer su derecho a la protesta social. Investigaciones independientes de <strong>Archivo Cuba</strong> contabilizan más de 67 jóvenes fallecidos mientras cumplían el Servicio Militar Obligatorio en años recientes.</p>
+      <p style="font-weight:600;color:var(--naranja);margin-top:28px;">Los Salones Ludo-Creativos Campo de Girasoles nacen para mitigar estos riesgos y proteger a la infancia cubana.</p>
+    </div>
+    <div style="margin-top:28px;">
+      <a class="btn btn-oscuro" href="/proyecto.html">Conocer la solución ›</a>
+    </div>
+    <div class="foto-marco" style="margin-top:40px;">
+      <picture>
+        <source type="image/webp" srcset="/assets/photos/salon-2.webp">
+        <img src="/assets/photos/salon-2.jpg" alt="Interior de un salón ludocreativo comunitario en Cuba" loading="lazy" width="1100" height="825">
+      </picture>
+      <span class="foto-caption">Ante el colapso, comunidades que se organizan. Un salón ludocreativo en sesión.</span>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- include:footer -->
+
+<!-- include:cierre -->
+
+<script src="/js/navegacion.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 154" role="img" aria-label="Logo Campo de Girasoles">
+  <title>Campo de Girasoles</title>
+  <!-- Fondo circular crema -->
+  <circle cx="80" cy="77" r="74" fill="#FFF8E7"/>
+  <!-- Pétalos verdes deconstruidos -->
+  <g fill="#7CB342">
+    <path d="M80 20 Q88 38 80 55 Q72 38 80 20 Z" transform="rotate(0 80 77)"/>
+    <path d="M80 20 Q88 38 80 55 Q72 38 80 20 Z" transform="rotate(45 80 77)"/>
+    <path d="M80 20 Q88 38 80 55 Q72 38 80 20 Z" transform="rotate(90 80 77)"/>
+    <path d="M80 20 Q88 38 80 55 Q72 38 80 20 Z" transform="rotate(135 80 77)"/>
+    <path d="M80 20 Q88 38 80 55 Q72 38 80 20 Z" transform="rotate(180 80 77)"/>
+    <path d="M80 20 Q88 38 80 55 Q72 38 80 20 Z" transform="rotate(225 80 77)"/>
+    <path d="M80 20 Q88 38 80 55 Q72 38 80 20 Z" transform="rotate(270 80 77)"/>
+    <path d="M80 20 Q88 38 80 55 Q72 38 80 20 Z" transform="rotate(315 80 77)"/>
+  </g>
+  <!-- Anillo marrón alrededor del centro -->
+  <circle cx="80" cy="77" r="28" fill="none" stroke="#5D4037" stroke-width="3"/>
+  <!-- Centro naranja (forma JUEGA) -->
+  <circle cx="80" cy="77" r="22" fill="#F57C00"/>
+  <!-- Centro amarillo interior (forma VIDA) -->
+  <circle cx="80" cy="77" r="6" fill="#FFEB3B"/>
+</svg>
